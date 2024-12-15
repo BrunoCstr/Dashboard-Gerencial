@@ -1,0 +1,22 @@
+{
+  "name": "requisicoes",
+  "version": "1.0.0",
+  "description": "Requisições-API-SGCOR",
+  "main": "producao.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node producao.js",
+    "db": "node index.js"
+  },
+  "author": "Bruno de Castro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.16",
+    "pg": "^8.13.1",
+    "pg-promise": "^11.10.2"
+  }
+}
